@@ -11,7 +11,7 @@
 
 赛题链接：http://nscc.zzu.edu.cn/ai/#/myMatch?tabType=questionsData&tabTeamType=createTeam&tabForumType=matchForum
 
-### 问题描述
+### 问题描述    
 >本赛题使用的数据集来自真实世界的动态心电数据，包含10名患者的标准12导联心电图共100 条。这些心电信号的采样频率为100 Hz，并被分割为每条10秒。数据集标签根据心电信号P、 QRS、T和U波的完整性分为四类：A类代表所有波形清晰可见，无基线漂移，采集质量高。B类 表示存在1-3个干扰心跳，但不会对诊断产生重大影响。C类表示能识别50%以上的波形，对诊断 有部分影响。D类表示完全无法识别波形，没有可用的心电信号。
 >本赛题质量评估任务分为两个子题：
 >
@@ -60,6 +60,7 @@ dataset # 训练过程中用用到的数据集，在data.ipynb中生成
 CNN_LSTM_128_64_60_20_acc83.pt # 模型权重文件
 Se-ResNet_1221_acc80.pt # 模型权重文件
 best-ckpt.pt # 模型训练权重检查点文件
+baseline # 赛题的baseline实现
 ```
 
 ### 正确输出示例
