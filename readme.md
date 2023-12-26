@@ -3,7 +3,11 @@
 
 ## 项目介绍       
 
-本项目为2023 ss杯生态应用挑战赛 `赛题3 可穿戴12导联动态心电质量评估 ` 初赛同赛道第二的实现。
+本项目为2023 ss杯生态应用挑战赛初赛 `赛题3 可穿戴12导联动态心电质量评估 ` 同赛道第二的实现。
+
+实现方式为pytorch搭建CNN+LSTM网络以及Se-ResNet。
+
+提供了数据处理和训练过程的notebook文件，以及测试和评估脚本。
 
 赛题链接：http://nscc.zzu.edu.cn/ai/#/myMatch?tabType=questionsData&tabTeamType=createTeam&tabForumType=matchForum
 
